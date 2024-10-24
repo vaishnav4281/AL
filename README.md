@@ -21,13 +21,24 @@ Make sure you have the following installed before running the program:
 ## Installation
 
 1. Clone the repository:
-  
-   ``` bash
-   git clone https://github.com/arktrek/AL.git
-   cd AnimatedLectures-AL
-    ```
+    Bash
+     ```
+     git clone https://github.com/arktrek/AL.git
+     cd AL
+     ```
    
 2. Install the required packages:
-   ``` Python
-   pip install openai diffusers moviepy TTS
-   ```
+     Python
+     ``` 
+     pip install openai diffusers moviepy TTS
+     ```
+3. Provide necessary inputs as shown.
+4. The program will generate an animated video based on your inputs, saving the final output as "Lecture.mp4" in the output directory
+
+## Directory Structure:
+AnimatedLectures-AL/
+├── main.py             # Main script to run the program
+├── images/             # Directory to store generated images
+├── audio/              # Directory to store generated audio files
+└── output/             # Directory to store the final video output
+
