@@ -69,7 +69,7 @@ Here's a brief breakdown of the main components in the code:
 - **TTS** for text-to-speech conversion in multiple languages.
 
 ## Contributing
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Suggestions and enhancements are always welcome!
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Suggestions and enhancements are always welcome!!
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
