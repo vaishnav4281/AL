@@ -32,11 +32,12 @@ Make sure you have the following installed before running the program:
      ``` 
      pip install openai diffusers moviepy TTS
      ```
-3. Provide necessary inputs as shown.
-4. The program will generate an animated video based on your inputs, saving the final output as "Lecture.mp4" in the output directory
+3. Setup OpenAI API Key: Replace [ openai.api_key="api-key" ] in the code with your actual OpenAI API key.
+4. Provide necessary inputs as shown.
+5. The program will generate an animated video based on your inputs, saving the final output as "Lecture.mp4" in the output directory
 
 ## Directory Structure:
-AnimatedLectures-AL/
+AL/
 
 ├── main.py             # Main script to run the program
 
@@ -46,3 +47,17 @@ AnimatedLectures-AL/
 
 └── output/             # Directory to store the final video output
 
+## Code Explanation
+Here's a brief breakdown of the main components in the code:
+
+1. Setup Directories: Creates directories for storing images, audio, and final video output.
+
+2. User Input: Asks for the subject, main topic, and preferred voiceover language.
+
+3. Script Generation: Uses the OpenAI GPT API to generate a detailed script for the lecture, tailored to engage the audience with fun concepts and professional elements.
+
+4. Image Generation: Utilizes Stable Diffusion to create a series of animated images based on the main topic, ensuring they are visually engaging and scientifically accurate.
+
+5. Voiceover Generation: Creates a voiceover of the generated script using a selected TTS model in the preferred language.
+
+6. Video Creation: Compiles the images and voiceover into a final animated video, outputting it as "Lecture.mp4".
