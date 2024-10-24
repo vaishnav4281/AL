@@ -1,15 +1,15 @@
-# Animated Lectures - AL
+# 🎓 Animated Lectures - AL
 
-## Overview
+## 🌟 Overview
 
-**Animated Lectures - AL** is a Python program that generates engaging animated videos for engineering subjects. Leveraging AI models for text generation and image synthesis, it creates a complete lecture video with voiceover and visuals based on user-defined topics.
+**Animated Lectures - AL** is a Python program that generates engaging animated videos for engineering subjects. Leveraging AI models for text generation and image synthesis, it creates a complete lecture video with voiceover and visuals based on user-defined topics. 🎬✨
 
-## Features
+## ✨ Features
 
-- **Interactive Script Generation**: Generate a detailed and engaging lecture script using OpenAI's GPT API.
-- **Dynamic Visuals**: Create animations related to the topic using Stable Diffusion to keep the audience engaged.
-- **Multilingual Voiceovers**: Generate voiceovers in English or Malayalam using TTS (Text-to-Speech).
-- **High-Quality Video Output**: Compile everything into a smooth animated video at 60 FPS.
+- **📝 Interactive Script Generation**: Generate a detailed and engaging lecture script using OpenAI's GPT API.
+- **🎨 Dynamic Visuals**: Create animations related to the topic using Stable Diffusion to keep the audience engaged.
+- **🌍 Multilingual Voiceovers**: Generate voiceovers in **English** or **Malayalam** using TTS (Text-to-Speech).
+- **📹 High-Quality Video Output**: Compile everything into a smooth animated video at **60 FPS** for an immersive experience.
 
 ## Requirements
 
@@ -39,7 +39,7 @@ Make sure you have the following installed before running the program:
 ## Directory Structure:
 AL/
 
-├── main.py             # Main script to run the program
+├── anilect.py             # Main script to run the program
 
 ├── images/             # Directory to store generated images
 
