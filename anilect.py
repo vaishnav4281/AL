@@ -34,7 +34,7 @@ def get_user_input():
 # Step 3: Generate Script focusing on the Main Topic
 def generate_script(subject, topic):
     prompt = f"Generate a detailed and engaging animated video script on the main topic '{topic}' within the subject '{subject}'. Explain the key concepts and provide examples. Make it cartoonically engaging. Even little kids should be able to understand the concepts through this. Also make it specifically centered for an animated video, so include funny schemes, plots, concepts in between to keep the audience engaged. Also include professional elements as well."
-    openai.api_key = "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"  # Add your OpenAI API key here
+    openai.api_key = "api-key"  # Add your OpenAI API key here
     response = openai.ChatCompletion.create(
         model="gpt-4", 
         messages=[{"role": "user", "content": prompt}]
