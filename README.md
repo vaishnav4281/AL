@@ -63,7 +63,7 @@ Here's a brief breakdown of the main components in the code:
 6. Video Creation: Compiles the images and voiceover into a final animated video, outputting it as "Lecture.mp4".
 
 ## Acknowledgments
-- **OpenAI** for providing the GPT API for script generation.
+- **OpenAI** for utilising the GPT API for generating the video script.
 - **Stable Diffusion** for creating engaging visuals.
 - **MoviePy** for video editing capabilities.
 - **TTS** for text-to-speech conversion in multiple languages.
