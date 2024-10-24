@@ -38,7 +38,10 @@ Make sure you have the following installed before running the program:
 ## Directory Structure:
 AnimatedLectures-AL/
 ├── main.py             # Main script to run the program
+
 ├── images/             # Directory to store generated images
+
 ├── audio/              # Directory to store generated audio files
+
 └── output/             # Directory to store the final video output
 
